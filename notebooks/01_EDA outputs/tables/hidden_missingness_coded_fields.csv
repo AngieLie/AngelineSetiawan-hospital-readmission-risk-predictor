@@ -1,0 +1,4 @@
+column,n_unknown,pct_unknown
+admission_type_id_label,10396,10.22
+discharge_disposition_id_label,4680,4.6
+admission_source_id_label,6781,6.66

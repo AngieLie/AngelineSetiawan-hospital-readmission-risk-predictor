@@ -1,0 +1,2 @@
+1652 encounters (1.62%) end in patient death (discharge_disposition_id in [11, 19, 20, 21]).
+Recommendation: exclude these rows during preprocessing, since readmission is structurally impossible for them.
