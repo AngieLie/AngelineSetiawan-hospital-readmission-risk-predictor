@@ -1,0 +1,91 @@
+variable,level,count,pct
+race,Caucasian,76099,74.78
+race,AfricanAmerican,19210,18.88
+race,,2273,2.23
+race,Hispanic,2037,2.0
+race,Other,1506,1.48
+race,Asian,641,0.63
+gender,Female,54708,53.76
+gender,Male,47055,46.24
+gender,Unknown/Invalid,3,0.0
+age,[70-80),26068,25.62
+age,[60-70),22483,22.09
+age,[50-60),17256,16.96
+age,[80-90),17197,16.9
+age,[40-50),9685,9.52
+age,[30-40),3775,3.71
+age,[90-100),2793,2.74
+age,[20-30),1657,1.63
+age,[10-20),691,0.68
+age,[0-10),161,0.16
+admission_type_id_label,Emergency,53990,53.05
+admission_type_id_label,Elective,18869,18.54
+admission_type_id_label,Urgent,18480,18.16
+admission_type_id_label,NULL,5291,5.2
+admission_type_id_label,Not Available,4785,4.7
+admission_type_id_label,Not Mapped,320,0.31
+admission_type_id_label,Trauma Center,21,0.02
+admission_type_id_label,Newborn,10,0.01
+discharge_disposition_id_label,Discharged to home,60234,59.19
+discharge_disposition_id_label,Discharged/transferred to SNF,13954,13.71
+discharge_disposition_id_label,Discharged/transferred to home with home health service,12902,12.68
+discharge_disposition_id_label,NULL,3691,3.63
+discharge_disposition_id_label,Discharged/transferred to another short term hospital,2128,2.09
+discharge_disposition_id_label,Discharged/transferred to another rehab fac including rehab units of a hospital .,1993,1.96
+discharge_disposition_id_label,Expired,1642,1.61
+discharge_disposition_id_label,Discharged/transferred to another type of inpatient care institution,1184,1.16
+discharge_disposition_id_label,Not Mapped,989,0.97
+discharge_disposition_id_label,Discharged/transferred to ICF,815,0.8
+discharge_disposition_id_label,Left AMA,623,0.61
+discharge_disposition_id_label,Discharged/transferred to a long term care hospital.,412,0.4
+discharge_disposition_id_label,Hospice / home,399,0.39
+discharge_disposition_id_label,Hospice / medical facility,372,0.37
+discharge_disposition_id_label,Discharged/transferred/referred to a psychiatric hospital of psychiatric distinct part unit of a hospital,139,0.14
+discharge_disposition_id_label,Discharged/transferred to home under care of Home IV provider,108,0.11
+discharge_disposition_id_label,Discharged/transferred within this institution to Medicare approved swing bed,63,0.06
+discharge_disposition_id_label,Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare.,48,0.05
+discharge_disposition_id_label,Admitted as an inpatient to this hospital,21,0.02
+discharge_disposition_id_label,Discharged/transferred/referred to this institution for outpatient services,14,0.01
+discharge_disposition_id_label,Discharged/transferred/referred another institution for outpatient services,11,0.01
+discharge_disposition_id_label,"Expired at home. Medicaid only, hospice.",8,0.01
+discharge_disposition_id_label,Neonate discharged to another hospital for neonatal aftercare,6,0.01
+discharge_disposition_id_label,Discharged/transferred to a federal health care facility.,5,0.0
+discharge_disposition_id_label,Still patient or expected to return for outpatient services,3,0.0
+discharge_disposition_id_label,"Expired in a medical facility. Medicaid only, hospice.",2,0.0
+admission_source_id_label, Emergency Room,57494,56.5
+admission_source_id_label, Physician Referral,29565,29.05
+admission_source_id_label,NULL,6781,6.66
+admission_source_id_label,Transfer from a hospital,3187,3.13
+admission_source_id_label, Transfer from another health care facility,2264,2.22
+admission_source_id_label,Clinic Referral,1104,1.08
+admission_source_id_label, Transfer from a Skilled Nursing Facility (SNF),855,0.84
+admission_source_id_label,HMO Referral,187,0.18
+admission_source_id_label, Not Mapped,161,0.16
+admission_source_id_label, Not Available,125,0.12
+admission_source_id_label, Court/Law Enforcement,16,0.02
+admission_source_id_label, Transfer from hospital inpt/same fac reslt in a sep claim,12,0.01
+admission_source_id_label, Transfer from critial access hospital,8,0.01
+admission_source_id_label, Extramural Birth,2,0.0
+admission_source_id_label,Normal Delivery,2,0.0
+admission_source_id_label, Transfer from Ambulatory Surgery Center,2,0.0
+admission_source_id_label, Sick Baby,1,0.0
+max_glu_serum,,96420,94.75
+max_glu_serum,Norm,2597,2.55
+max_glu_serum,>200,1485,1.46
+max_glu_serum,>300,1264,1.24
+A1Cresult,,84748,83.28
+A1Cresult,>8,8216,8.07
+A1Cresult,Norm,4990,4.9
+A1Cresult,>7,3812,3.75
+change,No,54755,53.8
+change,Ch,47011,46.2
+diabetesMed,Yes,78363,77.0
+diabetesMed,No,23403,23.0
+insulin,No,47383,46.56
+insulin,Steady,30849,30.31
+insulin,Down,12218,12.01
+insulin,Up,11316,11.12
+metformin,No,81778,80.36
+metformin,Steady,18346,18.03
+metformin,Up,1067,1.05
+metformin,Down,575,0.57
