@@ -1,11 +1,11 @@
 Item,Value
-Selected model family,XGBoost (tuned)
-Selected hyperparameters,"{'model__subsample': 0.8, 'model__scale_pos_weight': 1.0, 'model__n_estimators': 400, 'model__min_child_weight': 10, 'model__max_depth': 4, 'model__learning_rate': 0.03, 'model__colsample_bytree': 0.8}"
-Best CV PR-AUC (training only),0.1602
-Selected classification threshold,0.07
-Test PR-AUC (selected threshold),0.1067
-Test ROC-AUC (selected threshold),0.6099
-Test Precision (selected threshold),0.0781
-Test Recall (selected threshold),0.8451
-Test F1 (selected threshold),0.1431
-Test Accuracy (selected threshold),0.3095
+Selected model family,Logistic Regression (tuned)
+Selected hyperparameters,"{'model__penalty': 'l1', 'model__class_weight': 'balanced', 'model__C': np.float64(0.08685113737513529)}"
+Best CV PR-AUC (training only),0.1603
+Selected classification threshold,0.43
+Test PR-AUC (selected threshold),0.1086
+Test ROC-AUC (selected threshold),0.6080
+Test Precision (selected threshold),0.0804
+Test Recall (selected threshold),0.7868
+Test F1 (selected threshold),0.1459
+Test Accuracy (selected threshold),0.3715
