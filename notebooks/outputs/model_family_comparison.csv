@@ -1,0 +1,4 @@
+Model Family,Best CV PR-AUC,Search Object
+XGBoost (tuned),0.16020465088130967,xgb_search
+Logistic Regression (tuned),0.16006129696669505,logreg_search
+Random Forest (tuned),0.14971071954892903,rf_search
