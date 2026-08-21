@@ -1,6 +1,6 @@
 Item,Value
 Selected model family,Logistic Regression (tuned)
-Selected hyperparameters,"{'model__penalty': 'l1', 'model__class_weight': 'balanced', 'model__C': np.float64(0.08685113737513529)}"
+Selected hyperparameters,"{'model__penalty': 'l1', 'model__class_weight': 'balanced', 'model__C': 0.08685113737513529}"
 Best CV PR-AUC (training only),0.1603
 Selected classification threshold,0.43
 Test PR-AUC (selected threshold),0.1086

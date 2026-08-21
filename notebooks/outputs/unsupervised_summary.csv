@@ -4,5 +4,5 @@ K-means: cluster with highest readmission rate,3
 K-means: highest cluster readmission rate,0.1958
 K-means: overall training readmission rate,0.0964
 PCA: components fit,20
-PCA: components to reach 80% cumulative variance,1
+PCA: components to reach 80% cumulative variance,26
 PCA: PC1 explained variance ratio,0.1042
