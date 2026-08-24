@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/angie/Documents/GitHub/hospital-readmission-risk-predictor/AngelineSetiawan-hospital-readmission-risk-predictor/notebooks/mlruns/1/models/m-23f26b5537a94f8390a54fbf6a6fd08e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.1
+    skops_trusted_types:
+    - numpy.dtype
+mlflow_version: 3.15.1
+model_id: m-23f26b5537a94f8390a54fbf6a6fd08e
+model_size_bytes: 537626
+model_uuid: m-23f26b5537a94f8390a54fbf6a6fd08e
+prompts: null
+run_id: 03476d80955f41f4850dc90ca6e88508
+utc_time_created: '2026-08-24 17:29:01.124058'
