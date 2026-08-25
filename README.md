@@ -31,7 +31,7 @@ The trained model is served through a FastAPI app that reads whichever model ver
    http://127.0.0.1:8000/docs
    ```
 7. On that page, expand the **POST /predict** endpoint and click **Try it out**. Paste the sample request below into the request body and click **Execute**:
-   For a "predicted_high_risk": false. 
+   for a "predicted_high_risk": false or a "predicted_high_risk": true
    ```json
    {
      "features": {
