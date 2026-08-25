@@ -7,7 +7,7 @@ A phased MLOps build predicting whether a patient will be readmitted to the hosp
 Hospitals in the U.S. are financially penalized under CMS's Hospital Readmissions Reduction Program when their 30-day readmission rates are too high. This project builds a model and the system around it to flag high-risk patients before discharge so care teams can intervene early.
  
 ## Run the Prediction API Locally
-The trained model is served through a FastAPI app that reads whichever model version is currently tagged "Production" in the MLflow registry. Follow these steps in order.
+The trained model is served through a FastAPI app that reads whichever model version is currently tagged "Production" in the MLflow registry. Follow these steps in order. **There is a video in this repository to help guide you as well**.
  
 1. Open **Anaconda Prompt**.
 2. Activate the project environment:
