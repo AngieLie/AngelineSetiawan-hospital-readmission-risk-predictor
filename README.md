@@ -41,7 +41,7 @@ The trained model is served through a FastAPI app that reads whichever model ver
    }
    ```
 **or**
-      ```json
+    ```json
    {
      "features": {
        "number_inpatient": 5,
@@ -49,7 +49,7 @@ The trained model is served through a FastAPI app that reads whichever model ver
        "number_diagnoses": 9
      }
    }
-   ```
+     ```
    The response returns a `readmission_probability`, along with `predicted_high_risk` (true/false based on the model's tuned decision threshold), the `threshold_used`, and the serving model's `model_version` and `run_id`. Any feature left out of the request is treated as missing and imputed by the model's preprocessing pipeline the same way missing values are handled during training, so a partial payload like the one above still returns a valid prediction.
  
 A `GET /health` endpoint is also available at `http://127.0.0.1:8000/health` to confirm the server is up and to see which model version and threshold are currently loaded.
