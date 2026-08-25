@@ -41,6 +41,7 @@ The trained model is served through a FastAPI app that reads whichever model ver
    }
    ```
 **or**
+
     ```json
    {
      "features": {
